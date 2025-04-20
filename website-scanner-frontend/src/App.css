@@ -1,0 +1,64 @@
+/* Global & Layout */
+body {
+  font-family: sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+/* Buttons */
+.scan-button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.main-buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Inputs */
+input[type="text"], input[type="email"], .phone-number-input {
+  padding: 8px;
+  font-size: 16px;
+  margin-right: 0.5rem;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+/* Result Card */
+.result-card {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.result-card h2 {
+  margin-top: 0;
+}
+.result-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+.result-card li {
+  margin-bottom: 0.5rem;
+}
+/* Error */
+.error-msg {
+  color: red;
+  font-weight: bold;
+  margin-top: 1rem;
+}

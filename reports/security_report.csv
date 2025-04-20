@@ -1,0 +1,7 @@
+"severity","name","description"
+"critical","Missing header: strict-transport-security","Forces HTTPS connection."
+"critical","Missing header: content-security-policy","Prevents XSS via content restrictions."
+"medium","Missing header: x-frame-options","Prevents clickjacking."
+"medium","Missing header: x-content-type-options","Prevents MIME type sniffing."
+"low","Missing header: referrer-policy","Controls referrer info exposure."
+"medium","Mixed content","HTTP resources on HTTPS site."
